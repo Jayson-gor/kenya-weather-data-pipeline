@@ -8,8 +8,8 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # API configuration
-OPENWEATHER_API_KEY = "ec8678bc13e23ab592fdb61a4e9c544e"  # For current weather
-WEATHERBIT_API_KEY = "f08d48ecb5c64417b5d86e8cc55c0685"  # For historical weather
+OPENWEATHER_API_KEY = "******************"  # For current weather
+WEATHERBIT_API_KEY = "*******************"  # For historical weather
 OPENWEATHER_BASE_URL = "http://api.openweathermap.org/data/2.5"
 WEATHERBIT_HISTORICAL_URL = "https://api.weatherbit.io/v2.0/history/hourly"
 TOWNS = [
